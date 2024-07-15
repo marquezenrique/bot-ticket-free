@@ -1,4 +1,4 @@
-# [Bot Ticket (Discord.js v14.15.3)](https://github.com/marquezzx/bot-ticket-free/releases/tag/Release)
+# [Bot Ticket (Discord.js v14.15.3)](https://github.com/marquezzx/bot-ticket-free)
 
 Utilizando a base [Constatic](https://constatic-docs.vercel.app/pt) e [MongoDB](https://www.mongodb.com/)
 
