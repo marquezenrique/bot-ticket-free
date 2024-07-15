@@ -34,7 +34,7 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
 
 #### Configura o sistema, salvando os dados fornecidos no banco de dados
 
-```http
+```
   /config
 ```
 
@@ -46,7 +46,7 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
 
 #### Inicia o sistema, gerando a mensagem de abertura do ticket
 
-```http
+```
   /start
 ```
 
