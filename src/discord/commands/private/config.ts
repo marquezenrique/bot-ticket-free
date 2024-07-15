@@ -5,7 +5,7 @@ import {
 
 import { Command } from "#base";
 import { db } from "#database";
-import { res } from "lib/responses.js";
+import { res } from "#responses";
 
 new Command({
   name: "config",

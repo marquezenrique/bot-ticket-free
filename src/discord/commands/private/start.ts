@@ -8,8 +8,8 @@ import { createEmbed, createRow } from "@magicyan/discord";
 
 import { Command } from "#base";
 import { db } from "#database";
-import { icon } from "lib/emojis.js";
-import { res } from "lib/responses.js";
+import { icon } from "#emojis";
+import { res } from "#responses";
 import { settings } from "#settings";
 
 new Command({

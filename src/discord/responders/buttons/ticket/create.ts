@@ -3,8 +3,8 @@ import { Responder, ResponderType } from "#base";
 import { createEmbed, createRow } from "@magicyan/discord";
 
 import { db } from "#database";
-import { genProtocol } from "lib/protocol.js";
-import { res } from "lib/responses.js";
+import { genProtocol } from "#protocol";
+import { res } from "#responses";
 import { settings } from "#settings";
 
 new Responder({

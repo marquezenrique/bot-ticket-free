@@ -3,7 +3,7 @@ import { Responder, ResponderType } from "#base";
 import { TextInputStyle } from "discord.js";
 import { createModalFields } from "@magicyan/discord";
 import { db } from "#database";
-import { res } from "lib/responses.js";
+import { res } from "#responses";
 
 new Responder({
   customId: "ticket/rename",

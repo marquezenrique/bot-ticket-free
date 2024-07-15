@@ -54,6 +54,15 @@
     ],
     "#lang/*": [
       "./lang/*"
+    ],
+    "#responses": [
+      "./build/lib/responses.js"
+    ],
+    "#emojis": [
+      "./build/lib/emojis.js"
+    ],
+    "#protocol": [
+      "./build/lib/protocol.js"
     ]
   }
 }

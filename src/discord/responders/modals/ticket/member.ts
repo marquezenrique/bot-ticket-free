@@ -8,7 +8,7 @@ import {
 import { Responder, ResponderType } from "#base";
 import { createEmbed, createRow } from "@magicyan/discord";
 
-import { res } from "lib/responses.js";
+import { res } from "#responses";
 import { settings } from "#settings";
 
 new Responder({

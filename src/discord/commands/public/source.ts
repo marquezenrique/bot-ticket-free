@@ -1,9 +1,8 @@
 import { ApplicationCommandType } from "discord.js";
 import { Command } from "#base";
-import { res } from "lib/responses.js";
+import { res } from "#responses";
 
-const link =
-  "https://github.com/marquezzx/bot-ticket-free";
+const link = "https://github.com/marquezzx/bot-ticket-free";
 
 new Command({
   name: "source",

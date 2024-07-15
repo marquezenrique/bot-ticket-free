@@ -1,6 +1,6 @@
 import { ApplicationCommandType } from "discord.js";
 import { Command } from "#base";
-import { res } from "lib/responses.js";
+import { res } from "#responses";
 
 const link =
   "https://discord.com/oauth2/authorize?client_id=999829021053427724&permissions=8&integration_type=0&scope=applications.commands+bot";
