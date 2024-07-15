@@ -1,14 +1,16 @@
-
 # [Bot Ticket (Discord.js v14.15.3)](https://github.com/marquezzx/bot-ticket-free)
 
 Utilizando a base [Constatic](https://constatic-docs.vercel.app/pt) e [MongoDB](https://www.mongodb.com/)
 
-
-
-
 ### Linguagem utilizada
+
 Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis de ambiente e JSON foram utilizados como configuração global.
 
+## Referência
+
+- [Instalação](#instalação)
+- [Comandos Públicos](#públicos)
+- [Comandos de Configuração](#configuração)
 
 ## Instalação
 
@@ -20,7 +22,6 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
 
 #### Após a instalação (e extração) da pasta, basta abrir um terminal no diretório e instalar as dependências utilizando o comando:
 
-
 ```cmd
   npm install
 ```
@@ -30,7 +31,10 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
 ```cmd
   npm run dev
 ```
-## Comandos Públicos
+
+#Comandos
+
+## Públicos
 
 #### Retorna o url para adicionar o bot ao servidor
 
@@ -44,7 +48,7 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
   /source
 ```
 
-## Comandos de Configuração
+## Configuração
 
 #### Configura o sistema, salvando os dados fornecidos no banco de dados
 
@@ -52,11 +56,11 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
   /config
 ```
 
-| Parâmetros       | Descrição                           |
-| :--------- | :---------------------------------- |
+| Parâmetros  | Descrição                                                                     |
+| :---------- | :---------------------------------------------------------------------------- |
 | `categoria` | **Obrigatório**. Categoria onde os canais de ticket criados serão armazenados |
-| `cargo` | **Obrigatório**. Cargo que tem acesso aos tickets |
-| `logs` | **Obrigatório**. Canal onde os registros de log serão enviados |
+| `cargo`     | **Obrigatório**. Cargo que tem acesso aos tickets                             |
+| `logs`      | **Obrigatório**. Canal onde os registros de log serão enviados                |
 
 #### Inicia o sistema, gerando a mensagem de abertura do ticket
 
@@ -69,4 +73,3 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
 | `canal`   | **Obrigatório**. Canal que a mensagem será enviada                   |
 | `cor`     | **Opcional**. Cor da mensagem (obrigatóriamente em hex #rrggbb)      |
 | `imagem`  | **Opcional**. Imagem anexada à mensagem (.png / .jpg / .gif / .webp) |
-
