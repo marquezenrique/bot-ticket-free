@@ -30,6 +30,20 @@ Este projeto foi desenvolvido inteiramente em **TypeScript**, porém variaveis d
 ```cmd
   npm run dev
 ```
+## Comandos Públicos
+
+#### Retorna o url para adicionar o bot ao servidor
+
+```
+  /convite
+```
+
+#### Retorna o url para este repositório
+
+```
+  /source
+```
+
 ## Comandos de Configuração
 
 #### Configura o sistema, salvando os dados fornecidos no banco de dados
